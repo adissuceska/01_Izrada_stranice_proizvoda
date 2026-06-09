@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Town Walking Tour - Certified local tourist guides in Sarajevo</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="hero-header">
+        <h1>Certified local tourist guides in Sarajevo</h1>
+    </header>
+
+    <nav class="primary-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#walking-tours">Walking Tours</a></li>
+            <li><a href="#places-to-see">Places to see</a></li>
+            <li><a href="#sign-in">Sign in</a></li>
+            <li><a href="#sign-up">Sign up</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Product Content -->
+    <main class="product-page">
+        <!-- Hero Section -->
+        <section class="product-hero">
+            <h2>Old Town Walking Tour in Sarajevo</h2>
+            
+            <!-- SINGLE MAIN IMAGE ONLY -->
+            <img src="images1/main-tour.jpg" alt="Old Town Walking Tour" class="product-main-img">
+            
+            <div class="product-meta">
+                <div class="price">70€ <span>per person</span></div>
+                <div class="rating">★★★★☆ (4.5)</div>
+            </div>
+
+            <!-- Reservation Form -->
+            <form id="reservation-form" class="checkout-form" aria-label="Tour reservation form">
+                <div class="form-group">
+                    <label for="availability-select">Select your tour date:</label>
+                    <select id="availability-select" name="tour_date" class="form-input" required>
+                        <option value="" disabled selected>Select date</option>
+                        <option value="2025-12-05">December 5, 2025</option>
+                        <option value="2025-12-06">December 6, 2025</option>
+                        <option value="2025-12-07">December 7, 2025</option>
+                        <option value="2025-12-12">December 12, 2025</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-confirm">Reserve Now</button>
+            </form>
+
+            <!-- Short Description -->
+            <p class="hero-description">
+                Discover the heart of Sarajevo on this immersive walking tour through the historic Old Town.
+                Led by certified local guides, explore Ottoman architecture, hidden alleys, and vibrant markets.
+            </p>
+        </section>
+
+        <!-- Gallery Thumbnails ONLY (1/3 size, horizontal) -->
+        <section class="product-gallery">
+            <div class="gallery-thumbs">
+                <img src="images1/tour1.jpg" alt="Tour Highlights" class="gallery-thumb active">
+                <img src="images1/tour2.jpg" alt="Key Locations" class="gallery-thumb">
+                <img src="images1/tour3.jpg" alt="Photo Gallery" class="gallery-thumb">
+            </div>
+        </section>
+
+        <!-- Detailed Content Sections -->
+        <section class="content-sections">
+            <!-- Detailed Description -->
+            <div class="content-card">
+                <h3>Detailed Description</h3>
+                <p>This 3-hour walking tour takes you through Sarajevo's most iconic Old Town neighborhood - Baščaršija. Marvel at the 500-year-old Gazi Husrev-beg Mosque, wander through copper workshops, and visit the famous Old Bridge where East meets West.</p>
+                <p>Our certified guides share personal stories and lesser-known facts that bring Sarajevo's complex history to life. Perfect for history lovers, culture enthusiasts, and first-time visitors.</p>
+            </div>
+
+            <!-- Tour Specifications -->
+            <div class="content-card">
+                <h3>Tour Specifications</h3>
+                <ul class="tour-specifications">
+                    <li>Duration: 3 hours</li>
+                    <li>Group size: Maximum 15 people</li>
+                    <li>Languages: English, Bosnian, German</li>
+                    <li>Meeting point: Sebilj Fountain in Baščaršija</li>
+                    <li>Level: Easy walking, cobblestone surfaces</li>
+                    <li>Includes: Professional guide, map, water bottle</li>
+                </ul>
+            </div>
+
+            <!-- Customer Reviews -->
+            <div class="content-card">
+                <h3>Customer Reviews</h3>
+                <div class="reviews-grid">
+                    <blockquote>
+                        <div class="review-header">
+                            <strong>Emma W.</strong> ★★★★★
+                        </div>
+                        <p>Absolutely fantastic tour! Our guide Adnan was incredibly knowledgeable. Best way to see Sarajevo!</p>
+                    </blockquote>
+                    <blockquote>
+                        <div class="review-header">
+                            <strong>John M.</strong> ★★★★☆
+                        </div>
+                        <p>Great overview of Old Town. Pace was perfect and we saw places we would have missed. Highly recommend.</p>
+                    </blockquote>
+                    <blockquote>
+                        <div class="review-header">
+                            <strong>Sarah K.</strong> ★★★★★
+                        </div>
+                        <p>Mind-blowing stories and beautiful locations. Felt like we were with a friend who knows Sarajevo. 10/10!</p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Similar Tours -->
+        <section class="similar-walking-tours">
+            <div class="section-header">
+                <h3>Similar Walking Tours</h3>
+                <p class="section-subtitle">Discover more unforgettable experiences in Sarajevo</p>
+            </div>
+            
+            <div class="tours-grid">
+                <div class="tour-card">
+                    <div class="tour-image-wrapper">
+                        <img src="images1/similar1.jpg" alt="War History Tour" loading="lazy">
+                        <div class="image-overlay">
+                            <span class="tour-badge">Most Popular</span>
+                        </div>
+                    </div>
+                    <div class="tour-info">
+                        <h4>Sarajevo War History Tour</h4>
+                        <p class="tour-description">Explore the scars and stories of Sarajevo's turbulent past</p>
+                        <a href="link1.html" class="cta-button primary">Check Availability</a>
+                    </div>
+                </div>
+                
+                <div class="tour-card">
+                    <div class="tour-image-wrapper">
+                        <img src="images1/similar2.jpg" alt="Food Walking Tour" loading="lazy">
+                    </div>
+                    <div class="tour-info">
+                        <h4>Sarajevo Food Walking Tour</h4>
+                        <p class="tour-description">Taste the authentic flavors of Bosnian cuisine</p>
+                        <a href="link2.html" class="cta-button">Check Availability</a>
+                    </div>
+                </div>
+                
+                <div class="tour-card">
+                    <div class="tour-image-wrapper">
+                        <img src="images1/similar3.jpg" alt="Jewish Heritage Tour" loading="lazy">
+                    </div>
+                    <div class="tour-info">
+                        <h4>Jewish Heritage Walking Tour</h4>
+                        <p class="tour-description">Discover Sarajevo's rich Jewish history and culture</p>
+                        <a href="link3.html" class="cta-button">Check Availability</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Guides</h3>
+            <ul>
+                <li><a href="#">Become a guide</a></li>
+                <li><a href="#">Guide login</a></li>
+                <li><a href="#">Tour policies</a></li>
+            </ul>
+        </div>
+        <p>Follow us on social media:</p>
+        <ul class="social-links">
+            <li><a href="#" aria-label="Facebook"><img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook"></a></li>
+            <li><a href="#" aria-label="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/24/733/733561.png" alt="LinkedIn"></a></li>
+            <li><a href="#" aria-label="Instagram"><img src="https://cdn-icons-png.flaticon.com/24/733/733558.png" alt="Instagram"></a></li>
+            <li><a href="#" aria-label="X"><img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="X"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
